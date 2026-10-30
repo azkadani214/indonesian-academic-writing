@@ -6,13 +6,15 @@
 
 Skill penulisan akademik berbahasa Indonesia untuk agen AI. Membantu menyusun, menyunting, dan menelaah makalah, laporan, proposal, tugas akhir, skripsi, tesis, disertasi, serta artikel ilmiah dengan bahasa yang jelas dan klaim yang dapat ditelusuri.
 
+Versi awal: [v0.1.0](https://github.com/azkadani214/indonesian-academic-writing/releases/tag/v0.1.0). Instruksi dan referensi tersedia dalam bahasa Indonesia untuk ditelaah dan dikembangkan.
+
 **Pedoman dan templat perguruan tinggi pengguna menentukan format dokumen.** Kerangka dalam skill ini bersifat umum: tidak mewajibkan lima bab, jenis huruf, margin, jumlah kata, jumlah pertanyaan penelitian, atau gaya sitasi tertentu.
 
 ## Instalasi
 
 Paket menggunakan format [Agent Skills](https://agentskills.io/specification). CLI [skills](https://github.com/vercel-labs/skills) mendukung pemasangan ke beberapa agen, termasuk Codex, Claude Code, OpenCode, dan Cursor. Kemampuan membaca dokumen, menelusuri web, dan mengekspor berkas mengikuti fasilitas agen yang digunakan.
 
-Setelah repositori GitHub dipublikasikan:
+Pasang dari repositori GitHub:
 
 ```bash
 npx skills add azkadani214/indonesian-academic-writing --skill indonesian-academic-writing

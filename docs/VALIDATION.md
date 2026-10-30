@@ -12,6 +12,7 @@ Tanggal: 30 Oktober 2026 (Asia/Jakarta).
 | Penemuan lokal melalui Skills CLI 1.7.4 | Satu skill ditemukan | Nama `indonesian-academic-writing` |
 | Instalasi lokal melalui Skills CLI 1.7.4 | Berhasil dengan pilihan Codex, Claude Code, OpenCode, dan Cursor | Instalasi lingkup proyek terisolasi, mode salin; bukan pengujian inferensi keempat agen |
 | Kelengkapan berkas terpasang | 20 berkas pada setiap salinan cocok dengan sumber menurut SHA-256 | Termasuk 17 modul referensi, profil pedoman, SKILL.md, dan LICENSE |
+| Instalasi dari GitHub melalui Skills CLI 1.7.4 | Berhasil dari repositori publik dengan pilihan Codex | Salinan 20 berkas cocok dengan sumber menurut SHA-256; instalasi proyek terisolasi |
 | Logo SVG | XML terbaca, tanpa skrip atau dependensi gambar eksternal; hash sama dengan berkas pengguna | Logo tidak diubah |
 
 Uji CLI memakai Node.js 24.22.1. Salinan untuk agen yang berbagi direktori universal berada pada `.agents/skills/`; salinan Claude Code berada pada `.claude/skills/`. Tidak ada instalasi global yang dilakukan untuk pengujian ini.
@@ -23,5 +24,7 @@ Uji CLI memakai Node.js 24.22.1. Salinan untuk agen yang berbagi direktori unive
 - Kebenaran sumber ilmiah yang kelak dimasukkan pengguna.
 - Kepatuhan format DOCX/PDF tertentu; paket ini menyediakan pedoman, bukan mesin tata letak.
 - Kemunculan dan peringkat pada direktori skills.sh.
+
+Repositori telah dipublikasikan di [GitHub](https://github.com/azkadani214/indonesian-academic-writing). Pembukaan halaman skill di skills.sh melalui alat penelusuran belum berhasil, sehingga status indeksnya belum dikonfirmasi. Instalasi dari GitHub sudah berhasil tanpa bergantung pada status halaman direktori tersebut.
 
 Gunakan [skenario perilaku](../tests/scenarios.md) untuk penilaian lanjutan. Pemeriksaan manual isi memastikan ketentuan kampus dapat menggantikan kerangka umum, contoh data diberi label, dan bahan gambar tidak diperlakukan sebagai aturan universal; pemeriksaan manual tersebut bukan pengganti pengujian perilaku model.
